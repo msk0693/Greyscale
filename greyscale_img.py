@@ -21,9 +21,9 @@ cv2.moveWindow("ImageWindow", 100, 100)
 result = messagebox.askyesno(" ","Would you like to save the data?")
 if result :
 	cv2.imwrite("my_image_grey.png",img)
-	messagebox.showinfo(" ", "Image Saved. Enter 0 to exit.")
+	messagebox.showinfo(" ", "Image Saved. Enter any key to exit.")
 else:
-	messagebox.showinfo(" ", "Enter 0 to exit.")
+	messagebox.showinfo(" ", "Enter any key to exit.")
 
 #quit with 0 key
 cv2.waitKey(0)
